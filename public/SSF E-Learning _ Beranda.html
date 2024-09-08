@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)http://localhost/ta/ -->
+<html lang="en" dir="ltr"><!-- Begin Head --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!----- Required MetaTags ----->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Smart School Foundation, SSF">
+    <meta name="description" content="&amp;quot;Be smart with our private&amp;quot;">
+    <meta name="author" content="Andi Wonosobo">
+    <!----- Style css ----->
+    <link rel="stylesheet" type="text/css" href="./SSF E-Learning _ Beranda_files/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./SSF E-Learning _ Beranda_files/animate.css">
+	<link rel="stylesheet" type="text/css" href="./SSF E-Learning _ Beranda_files/fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./SSF E-Learning _ Beranda_files/icofont.css">
+	<link rel="stylesheet" type="text/css" href="./SSF E-Learning _ Beranda_files/font.css">
+	<link rel="stylesheet" type="text/css" href="./SSF E-Learning _ Beranda_files/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="./SSF E-Learning _ Beranda_files/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="./SSF E-Learning _ Beranda_files/toastr.min.css">
+	<link rel="stylesheet" type="text/css" href="./SSF E-Learning _ Beranda_files/frontend-rtl.css">
+    <link rel="stylesheet" type="text/css" href="./SSF E-Learning _ Beranda_files/frontend-style.css">
+    
+	<!----- Favicon ----->
+	<link rel="shortcut icon" type="image/ico" href="http://localhost/ta/uploads/site_data/ssf_white1.png">
+	<!----- Title ----->
+    <title>SSF E-Learning | Beranda</title>
+	<script>
+		var base_url = "http://localhost/ta/";
+		var site_logo = "http://localhost/ta/assets/images/favicon.png";
+		var rzp_key ="rzp_test_QFKjgPljh9GufG";
+        var ltr_status_msg = "Status changed successfully.";
+		var ltr_matching_msg = "No matching records found.";
+		var ltr_select_chapter ="Select Chapter";
+		var ltr_select_subject ="Select Subject";
+		var ltr_subject ="Subject";
+		var ltr_teacher ="Teacher";
+		var ltr_select_teacher ="Select Teacher";
+		var ltr_start_date ="Start Date";
+		var ltr_end_date ="End Date";
+		var ltr_start_time ="Start Time";
+		var ltr_end_time ="End Time";
+        var ltr_cant_msg ="Can&#039;t delete, Add one more subject to delete it.";
+        var ltr_are_you_msg ="Are you sure, You want to delete?";
+        var ltr_add_course ="Add Course";
+        var ltr_edit_course ="Edit course";
+        var ltr_add_doubts_date_class ="Schedule Class";
+        var ltr_add_new_exam ="Add New Exam";
+        var ltr_end_date_msg ="End date should be greater than start date.";
+        var ltr_subject_msg ="Add atleast one subject.";
+        var ltr_characters_msg ="You can not have more than 50 characters here.";
+        var ltr_password_student_msg ="Enrollment Id and Password for student";
+        var ltr_enrollment_id ="Enrollment Id";
+        var ltr_password ="Password";
+        var ltr_add_another_student ="add another student";
+        var ltr_select_batch_msg ="Please select class.";
+		var ltr_select_batch ="Select Class";
+        var ltr_changed_batch_msg ="Class changed successfully.";
+        var ltr_changed_password_for_msg ="Change Password for";
+        var ltr_confirm_password_msg ="Password and Confirm Password should be same.";
+        var ltr_password_msg ="Password changed successfully.";
+        var ltr_subject_name_msg ="Please enter subject name.";
+        var ltr_letters_characters_msg ="Only letters, dashes and digits are allowed,Special characters are not allowed.";
+        var ltr_subject_updated_msg ="subject updated successfully.";
+        var ltr_subject_add_msg ="subject added successfully.";
+        var ltr_subject_exists_msg ="Subject name already exists.";
+        var ltr_are_you_so_msg ="Are you sure";
+        var ltr_subject_delete_alert_msg ="It will delete all chapters and questions of this subject?";
+        var ltr_atleast_chapter_msg ="Please enter atleast one chapter name.";
+        var ltr_add_chapter_msg ="Chapters added successfully.";
+        var ltr_exists_chapter_msg ="Chapter name already exists.";
+        var ltr_chapter_name_msg ="Please enter chapter name.";
+        var ltr_chapter_updated_msg ="Chapter updated successfully.";
+        var ltr_chapter_delete_msg ="It will delete all questions of this chapter?";
+        var ltr_loading_msg ="loading";
+        var ltr_select_subject_msg ="Please select subject";
+        var ltr_select_subject_both_msg ="Please select subject and chapter both.";
+        var ltr_word_msg ="Please enter word.";
+        var ltr_answer_msg ="Please choose right answer.";
+        var ltr_start_date_greater_msg ="Start date should be greater than last date.";
+        var ltr_add_teacher ="Add Teacher";
+        var ltr_edit_teacher ="Edit Teacher";
+        var ltr_update_teacher ="Update Teacher";
+        var ltr_add_extra_class ="Add Extra Class";
+        var ltr_add_class ="Add Class";
+        var ltr_edit_extra_class ="Edit extra class";
+        var ltr_update_class ="Update Class";
+        var ltr_past_time_msg ="Can not accept past time.";
+        var ltr_end_greater_msg ="End time should be greater than start time.";
+        var ltr_today_greater_msg ="Date should be today or greater than today.";
+        var ltr_class_already_added_msg ="Class is already added on same time.";
+        var ltr_valid_time_msg ="Please enter valid time.";
+        var ltr_select_date_msg ="Please select date.";
+        var ltr_atleast_question_msg ="Please select atleast one question.";
+        var ltr_select_year_msg ="Please select year.";
+        var ltr_select_paper_msg ="Please select paper.";
+        var ltr_add_facility ="Add Facility";
+        var ltr_edit_facility ="Edit Facility";
+        var ltr_add_assignment ="Add Assignment";
+        var ltr_edit_assignment ="Edit Assignment";
+        var ltr_update_assignment ="Update Assignment";
+        var ltr_select_from_date_msg ="Please select from date.";
+        var ltr_select_to_date_msg ="Please select to date.";
+        var ltr_batch_inactive_msg ="This class has in active please contact to Admin.";
+        var ltr_mark_complete ="Mark as complete.";
+        var ltr_complete ="Complete";
+        var ltr_all_fields_msg ="All fields are required.";
+        var ltr_hide_password ="Hide Password";
+        var ltr_change_password ="Change Password";
+        var ltr_new_password_msg ="Please enter new password.";
+        var ltr_all_test_record_msg ="Your all data and Test record will be cleared Do you really want to continue?";
+        var ltr_once_deleted_alert_msg ="Once deleted, you will not be able to recover this data!";
+        var ltr_are_deleted_alert_msg ="Are you sure to delete?";
+        var ltr_updated_msg ="Updated successfully.";
+        var ltr_alert_updated_msg ="Are you sure to update?";
+        var ltr_category_changed_msg ="Category changed successfully.";
+        var ltr_invalid_birth_msg ="Invalid date of birth.";
+        var ltr_to_greater_msg ="To date should be greater than from date.";
+        var ltr_message ="Message";
+        var ltr_add_live_class ="Add Live Class";
+        var ltr_edit_live_class ="Edit live class";
+        var ltr_atleast_student_msg ="Please select atleast one student.";
+        var ltr_atleast_date_msg ="Please select atleast one data.";
+        var ltr_maximum40_characters_msg ="Maximum 40 characters are allowed.";
+        var ltr_maximum50_characters_msg ="Maximum 50 characters are allowed.";
+        var ltr_double_class_date_msg ="Please select a double class date and time.";
+		var ltr_ok ="Ok";
+		var ltr_cancel ="Cancel";
+		var ltr_select_student ="Select Student";
+		var ltr_description ="Description";
+		var ltr_can_remove_msg ="Can&#039;t remove, Add more item to delete it";
+		var ltr_some_required ="Some required fields are missing";
+        var ltr_only_letters_msg ="Only letters, dashes and digits are allowed,Special symbols are not allowed.";
+        var ltr_search ="Search";
+        var ltr_show ="Show";
+        var ltr_heading  ="Heading";
+        var ltr_sub_heading  ="Sub Heading";
+        var ltr_batch_speci_heading  ="Class specification heading";
+        var ltr_fecherd  ="Features";
+        var ltr_email  ="Email";
+        var ltr_wrong_credentials_msg  ="Wrong credentials.";
+        var ltr_batch_spe_msg  ="Can&#039;t delete, Add one more heading to delete it.";
+        var ltr_you_delete  ="You want to delete ?";
+        var ltr_i_learn  ="What will i learn ?";
+        var ltr_chapters  ="Chapter&#039;s";
+        var ltr_offer_price_msg  ="Offer price should be greater than class price.";
+        var ltr_batch_price_msg  ="Please enter class price.";
+        var ltr_payment_msg  ="Payment is too low.";
+        var ltr_something_msg  ="Something went wrong, please try again.";
+        var ltr_enter_your_name="Enter Your Name";
+        var ltr_enter_your_email="Enter Your Email";
+        var ltr_valid_enter_your_email="Please enter a valid email.";
+        var ltr_enter_your_phone="Enter Your Mobile Number";
+        var ltr_valid_enter_your_phone="Please enter a valid phone number.";
+        var ltr_enter_your_message="Enter Your Message";
+        var ltr_send="Send";
+        var ltr_no_result="No result found.";
+
+	</script>
+  </head>
+  <body class="">
+	<!----- Preloader Box ----->
+	<div class="edu_preloader" style="display: none;">
+		<div class="edu_status">
+			<img src="./SSF E-Learning _ Beranda_files/Hourglass.gif" alt="loader">
+		</div>
+	</div>
+	<!----- Preloader Box ----->
+		<!----- Main Wraapper ----->
+	<section class="main_wrapper">
+		<!----- Header Start ----->
+		<header>
+			<div class="edu_header_top">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+							<div class="edu_social_wrapper">
+								<ul>
+									<li>Follow Us On</li>
+									 <li><a href="https://web.facebook.com/groups/406245664709720/" class="edu_social_icon" target="_blank"><i class="fab fa-facebook-f"></i></a></li> <li><a href="https://www.youtube.com/channel/UCKTAiQlRx1YFd6LcXsDL5Ew" class="edu_social_icon" target="_blank"><i class="fab fa-youtube"></i></a></li> <li><a href="https://www.instagram.com/smart_school_foundation/" class="edu_social_icon" target="_blank"><i class="fab fa-instagram"></i></a></li>                                </ul>
+							</div>
+						</div>
+						<div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
+							<div class="edu_header_info">
+								<ul>
+									<li>
+										<a href="mailto:smartschoolfoundation@gmail.com"><i class="fas fa-envelope"></i>smartschoolfoundation@gmail.com</a>									</li>
+									<li>
+										<a href="tel:+081379523955"><i class="fas fa-phone-volume"></i>081379523955</a>									</li>
+									<li>
+									  										<a href="http://localhost/ta/login"><i class="fas fa-sign-in-alt"></i>Login</a>
+																		</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="edu_header_wrapper">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-lg-3 col-md-4 col-sm-4 col-10">
+							<div class="edu_logo">
+								<a href="http://localhost/ta/"><img class="front_logo" src="./SSF E-Learning _ Beranda_files/nyamping_new1.png" alt="logo"></a>
+							</div>
+						</div>
+						<div class="col-lg-9 col-md-8 col-sm-8 col-2">
+							<div class="edu_main_menu main_menu_parent">
+								<!----- Header Menus ----->
+								<div class="edu_nav_items main_menu_wrapper text-right">
+									<ul>
+										<li><a href="http://localhost/ta/" class="active">Beranda</a></li>
+										<li><a href="http://localhost/ta/about-us">Profil</a></li>
+										<li><a href="http://localhost/ta/courses-offered">Course Kami</a></li>
+										<!-- <li><a href="http://localhost/ta/blog">Blog</a></li> -->
+										<li class="has_submenu">
+											<a href="javascript:void(0);">Galeri</a>
+											<ul class="sub_menu">
+												<li><a href="http://localhost/ta/gallery">Foto</a></li>
+												<li><a href="http://localhost/ta/video-gallery">Video</a></li>
+											</ul>
+										</li>
+										<li><a href="http://localhost/ta/facilities">Fasilitas</a></li>
+										<li><a href="http://localhost/ta/contact-us">Kontak Kami</a></li>
+									</ul>
+								</div>
+								<div class="menu_btn_wrap">
+																	<a href="javascript:void(0);" class="menu_btn">
+										<span></span>
+										<span></span>
+										<span></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header><!----- Banner Wraapper ----->
+		<section class="edu_banner_wrapper relative">
+			<div class="swiper-container homeBannerSlider swiper-container-initialized swiper-container-horizontal">
+				<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-3789px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" style="width: 1263px;">
+						<div class="innerSliderWrap">
+							<div class="edu_banner_section" style="background-image:url(http://localhost/ta/uploads/site_data/page_3.jpg)">
+								<div class="container-fluid">
+									<div class="row justify-content-center">
+										<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-12 text-center">
+											<div class="edu_banner_text">
+											<h4 class="edu_subTitle animation_ttl1">Mari Bergabung Bersama Kami</h4>												<h1 class="animation_ttl2">Siap Membimbingmu Menuju Dunia Penuh Prestasi</h1>
+												<p class="animation_ttl2">Tunggu apalagi, tertarik untuk bergabung? Kami bersedia menerima dan membimbing Anda kapanpun Anda mau.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 1263px;">
+						<div class="innerSliderWrap">
+							<div class="edu_banner_section" style="background-image:url(http://localhost/ta/uploads/site_data/page.jpg)">
+								<div class="container-fluid">
+									<div class="row justify-content-center">
+										<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-12 text-center">
+											<div class="edu_banner_text">
+											<h4 class="edu_subTitle animation_ttl1">Welcome to SSF E-Learning</h4>												<h1 class="animation_ttl2">"Be Smart with Our Private"</h1>
+												<p class="animation_ttl2">Kami sudah berhasil membimbing beragam kalangan untuk dapat meningkatkan skill berbahasa Inggris mereka.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+										<div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" style="width: 1263px;">
+						<div class="innerSliderWrap">
+							<div class="edu_banner_section" style="background-image:url(http://localhost/ta/uploads/site_data/page_2.jpg)">
+								<div class="container-fluid">
+									<div class="row justify-content-center">
+										<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-12 text-center">
+											<div class="edu_banner_text">
+											<h4 class="edu_subTitle animation_ttl1">Ayo Bergabung</h4>												<h1 class="animation_ttl2">Raih Prestasimu Bersama Kami</h1>
+												<p class="animation_ttl2">Beragam prestasi oleh bimbingan kami sudah diperoleh. Tentunya dengan kerja keras dan bantuan dari bimbingan kami.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+										<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" style="width: 1263px;">
+						<div class="innerSliderWrap">
+							<div class="edu_banner_section" style="background-image:url(http://localhost/ta/uploads/site_data/page_3.jpg)">
+								<div class="container-fluid">
+									<div class="row justify-content-center">
+										<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-12 text-center">
+											<div class="edu_banner_text">
+											<h4 class="edu_subTitle animation_ttl1">Mari Bergabung Bersama Kami</h4>												<h1 class="animation_ttl2">Siap Membimbingmu Menuju Dunia Penuh Prestasi</h1>
+												<p class="animation_ttl2">Tunggu apalagi, tertarik untuk bergabung? Kami bersedia menerima dan membimbing Anda kapanpun Anda mau.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+									<div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 1263px;">
+						<div class="innerSliderWrap">
+							<div class="edu_banner_section" style="background-image:url(http://localhost/ta/uploads/site_data/page.jpg)">
+								<div class="container-fluid">
+									<div class="row justify-content-center">
+										<div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-12 text-center">
+											<div class="edu_banner_text">
+											<h4 class="edu_subTitle animation_ttl1">Welcome to SSF E-Learning</h4>												<h1 class="animation_ttl2">"Be Smart with Our Private"</h1>
+												<p class="animation_ttl2">Kami sudah berhasil membimbing beragam kalangan untuk dapat meningkatkan skill berbahasa Inggris mereka.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div></div>
+			<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+			<!----- Slider Arrows ----->
+			<div class="edu_banner_button">
+				<div class="ButtonNext" tabindex="0" role="button" aria-label="Next slide"><span class="icofont-simple-right"></span></div>
+				<div class="ButtonPrev" tabindex="0" role="button" aria-label="Previous slide"><span class="icofont-simple-left"></span></div>
+			</div>
+		</section>
+		<!----- Call To Action Start ----->
+		<section class="edu_callToAction_wrapper"> 
+			<div class="container">
+				<div class="row align-items-center justify-content-center">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+						<div class="edu_callToAction_bg">
+							<div class="edu_callToAction_bg_inner">
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12 p-0 text-center">
+									<div class="edu_action_section counter_item">
+										<i class="fas fa-user-graduate"></i>
+										<h1><span class="count_no" data-to="54" data-speed="3000">54</span><span>+</span></h1>
+										<p>Bimbingan Kami</p>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12 p-0 text-center">
+									<div class="edu_action_section counter_item center">
+										<i class="fas fa-users"></i>
+										<h1><span class="count_no" data-to="100" data-speed="3000">100</span><span>+</span></h1>
+										<p>Jumlah Tentor</p>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-12 col-12 p-0 text-center">
+									<div class="edu_action_section counter_item">
+										<i class="fas fa-award"></i>
+										<h1><span class="count_no" data-to="10" data-speed="3000">10</span><span>+</span></h1>
+										<p>Tahun Telah Berdiri</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!----- About Section Start ----->
+		<section class="edu_about_wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12 col-12">
+						<div class="edu_about_img relative mb_30">
+							<img class="edu_about_big_img parallax" src="./SSF E-Learning _ Beranda_files/page_4.jpg" alt="">
+							<img class="edu_about_small_img parallax" src="./SSF E-Learning _ Beranda_files/page_5.jpg" alt="">
+							<span class="edu_about_time">Since2012</span>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12 col-12">
+						<div class="edu_about_detail mb_30">
+							<h4 class="edu_subTitle">Tentang Kami</h4>
+							<h2 class="edu_heading">Smart School Foundation</h2>
+							<p class="mb-3">Smart School Foundation adalah lembaga kursus bahasa Inggris yang beralamat di Jl. Alim Ulama No. 1 Semaka Kabupaten Tanggamus. Smart School Foundation sudah berdiri sejak tahun 2012. Jenjang pendidikan lembaga ini dimulai dari jenjang SD sampai dengan Umum. Tersedia kelas dengan mekanisme offline dan online. Selain kelas reguler, terdapat juga kelas prestasi untuk mengasah kemampuan dan minat bakat dalam berbahasa Inggris.</p>
+							<a href="http://localhost/ta/about-us" class="edu_btn">Baca Lebih</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!----- Service Section Start ----->
+		<section class="edu_services_wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+						<div class="edu_heading_wrapper">
+							<h4 class="edu_subTitle">Fasilitas-fasilitas Kami</h4>
+							<h4 class="edu_heading">Tersedia</h4>
+							<img src="./SSF E-Learning _ Beranda_files/border.png" alt="">
+						</div>
+					</div>
+														<div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+										<div class="edu_services_section">
+											<div class="edu_services_section_inner">
+												<i class="&lt;i class=&quot;icofont-snow-alt&quot;&gt;&lt;/i&gt;"></i>
+												<h4>Ruang AC</h4>
+												<p>AC Dingin</p>
+											</div>
+										</div>
+									</div>
+																	<div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+										<div class="edu_services_section">
+											<div class="edu_services_section_inner">
+												<i class="&lt;i class=&quot;icofont-resize&quot;&gt;&lt;/i&gt;"></i>
+												<h4>Ruangan Luas</h4>
+												<p>Beragam ruangan yang luas</p>
+											</div>
+										</div>
+									</div>
+																	<div class="col-lg-4 col-md-6 col-sm-6 col-12 text-center">
+										<div class="edu_services_section">
+											<div class="edu_services_section_inner">
+												<i class="&lt;i class=&quot;icofont-people&quot;&gt;&lt;/i&gt;"></i>
+												<h4>Tentor-tentor terbaik</h4>
+												<p>Tentor-tentor yang siap membimbing Anda</p>
+											</div>
+										</div>
+									</div>
+												</div>
+			</div>
+		</section>					
+		<!----- Selection Section Start ----->
+				<section class="edu_selection_wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+						<div class="edu_heading_wrapper">
+							<h4 class="edu_subTitle">Para Bimbingan Kami</h4>
+							<h4 class="edu_heading">Perkenalkan</h4>
+							<img src="./SSF E-Learning _ Beranda_files/border.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+						<div class="row extraMargin">
+							<div class="edu_selection_slider">
+								<div class="swiper-container selectionSlider swiper-container-initialized swiper-container-horizontal">
+									<div class="swiper-wrapper" style="transform: translate3d(-2400px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1170px; margin-right: 30px;">
+											<div class="row"><div class="col-lg-4 col-md-6 col-sm-12 col-12">
+    												<div class="edu_selection_section">
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_section_inner">
+    														<img src="./SSF E-Learning _ Beranda_files/kokomi.jpg" alt=""><div class="edu_selection_info">
+    															<a href="javascript:void(0);"><h4>Sangonomiya Kokomi</h4></a>
+    															<p>Status <span>student</span></p>
+    														</div>
+    													</div>
+    												</div>
+    											</div><div class="col-lg-4 col-md-6 col-sm-12 col-12">
+    												<div class="edu_selection_section">
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_section_inner">
+    														<img src="./SSF E-Learning _ Beranda_files/ayaka.jpg" alt=""><div class="edu_selection_info">
+    															<a href="javascript:void(0);"><h4>Kamisato Ayaka</h4></a>
+    															<p>Status <span>student</span></p>
+    														</div>
+    													</div>
+    												</div>
+    											</div><div class="col-lg-4 col-md-6 col-sm-12 col-12">
+    												<div class="edu_selection_section">
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_section_inner">
+    														<img src="./SSF E-Learning _ Beranda_files/childe.jpg" alt=""><div class="edu_selection_info">
+    															<a href="javascript:void(0);"><h4>Tatang Surtatang</h4></a>
+    															<p>Status <span>student</span></p>
+    														</div>
+    													</div>
+    												</div>
+    											</div></div>
+											</div>
+										<div class="swiper-slide swiper-slide-duplicate-active swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 1170px; margin-right: 30px;">
+											<div class="row"><div class="col-lg-4 col-md-6 col-sm-12 col-12">
+    												<div class="edu_selection_section">
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_section_inner">
+    														<img src="./SSF E-Learning _ Beranda_files/kokomi.jpg" alt=""><div class="edu_selection_info">
+    															<a href="javascript:void(0);"><h4>Sangonomiya Kokomi</h4></a>
+    															<p>Status <span>student</span></p>
+    														</div>
+    													</div>
+    												</div>
+    											</div><div class="col-lg-4 col-md-6 col-sm-12 col-12">
+    												<div class="edu_selection_section">
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_section_inner">
+    														<img src="./SSF E-Learning _ Beranda_files/ayaka.jpg" alt=""><div class="edu_selection_info">
+    															<a href="javascript:void(0);"><h4>Kamisato Ayaka</h4></a>
+    															<p>Status <span>student</span></p>
+    														</div>
+    													</div>
+    												</div>
+    											</div><div class="col-lg-4 col-md-6 col-sm-12 col-12">
+    												<div class="edu_selection_section">
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_section_inner">
+    														<img src="./SSF E-Learning _ Beranda_files/childe.jpg" alt=""><div class="edu_selection_info">
+    															<a href="javascript:void(0);"><h4>Tatang Surtatang</h4></a>
+    															<p>Status <span>student</span></p>
+    														</div>
+    													</div>
+    												</div>
+    											</div></div>
+											</div>									<div class="swiper-slide swiper-slide-duplicate swiper-slide-active swiper-slide-duplicate-prev" data-swiper-slide-index="0" style="width: 1170px; margin-right: 30px;">
+											<div class="row"><div class="col-lg-4 col-md-6 col-sm-12 col-12">
+    												<div class="edu_selection_section">
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_section_inner">
+    														<img src="./SSF E-Learning _ Beranda_files/kokomi.jpg" alt=""><div class="edu_selection_info">
+    															<a href="javascript:void(0);"><h4>Sangonomiya Kokomi</h4></a>
+    															<p>Status <span>student</span></p>
+    														</div>
+    													</div>
+    												</div>
+    											</div><div class="col-lg-4 col-md-6 col-sm-12 col-12">
+    												<div class="edu_selection_section">
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_section_inner">
+    														<img src="./SSF E-Learning _ Beranda_files/ayaka.jpg" alt=""><div class="edu_selection_info">
+    															<a href="javascript:void(0);"><h4>Kamisato Ayaka</h4></a>
+    															<p>Status <span>student</span></p>
+    														</div>
+    													</div>
+    												</div>
+    											</div><div class="col-lg-4 col-md-6 col-sm-12 col-12">
+    												<div class="edu_selection_section">
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_cap">
+    														<i class="fas fa-graduation-cap"></i>
+    													</div>
+    													<div class="edu_selection_section_inner">
+    														<img src="./SSF E-Learning _ Beranda_files/childe.jpg" alt=""><div class="edu_selection_info">
+    															<a href="javascript:void(0);"><h4>Tatang Surtatang</h4></a>
+    															<p>Status <span>student</span></p>
+    														</div>
+    													</div>
+    												</div>
+    											</div></div>
+											</div></div>
+								<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+								<!----- Selection Bullets ----->
+								<div class="swiperPagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span></div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+				<!----- Courses Section ----->
+		<section class="edu_courses_wrapper edu_courses_main">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+						<div class="edu_heading_wrapper">
+							<h4 class="edu_subTitle">KAMI SIAP MEMBIMBING ANDA</h4>
+							<h4 class="edu_heading white">Course Kami</h4>
+							<img src="./SSF E-Learning _ Beranda_files/border.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+						<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12 padder0">
+						<div class="edu_courses_section">
+							<ul class="nav nav-tabs" role="tablist">
+							<li class="nav-item">
+										<a class="nav-link active" href="http://localhost/ta/#courseType1" role="tab" data-toggle="tab">
+											<span class="edu_tab_icons">
+												MATEMATIKA 10
+											</span>
+										</a>
+									</li>                                        
+									<li class="nav-item">
+										<a class="nav-link " href="http://localhost/ta/#courseType2" role="tab" data-toggle="tab">
+											<span class="edu_tab_icons">
+												MATEMATIKA
+											</span>
+										</a>
+									</li>                                        
+																<li class="nav-item">
+										<a class="nav-link " href="http://localhost/ta/courses-offered">
+											<span class="edu_tab_icons">
+											More Courses
+											</span>
+										</a>
+									</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+						<div class="edu_courses_section">
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane fade in active show" id="courseType1">
+									<div class="edu_courses_content">
+										<div class="edu_courses_content_inner">
+											<div class="row">
+												<div class="col-lg-6 col-md-12 col-sm-12 col-12">
+													<div class="edu_courses_img relative">
+													
+														<a href="http://localhost/ta/courses-details/15"><div class="edu_courses_img_holder">
+															<img src="http://localhost/ta/uploads\batch_image/pexels-pixabay-33787_231006181359.jpg" alt=""/>
+														</div></a>
+													</div>
+												</div>
+												<div class="col-lg-6 col-md-12 col-sm-12 col-12">
+													<div class="edu_courses_detail">
+														<h4><a href="http://localhost/ta/courses-details/15">MATEMATIKA 10</a></h4>
+														<p>jbc</p>
+														<ul>
+															
+															<li>
+																<span class="edu_course_info_icon">
+																	<a href="http://localhost/ta/enroll-now/15" class="edu_course_price ">Free</a>
+																</span>
+																
+															</li>
+															<li><span class="edu_course_info_icon">
+																<a href="http://localhost/ta/enroll-now/15" class="edu_btn ">Enroll Now</a>
+																</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><div role="tabpanel" class="tab-pane fade " id="courseType2">
+									<div class="edu_courses_content">
+										<div class="edu_courses_content_inner">
+											<div class="row">
+												<div class="col-lg-6 col-md-12 col-sm-12 col-12">
+													<div class="edu_courses_img relative">
+													
+														<a href="http://localhost/ta/courses-details/14"><div class="edu_courses_img_holder">
+															<img src="http://localhost/ta/uploads\batch_image/wallpaperflare_com_wallpaper_231006163902.jpg" alt=""/>
+														</div></a>
+													</div>
+												</div>
+												<div class="col-lg-6 col-md-12 col-sm-12 col-12">
+													<div class="edu_courses_detail">
+														<h4><a href="http://localhost/ta/courses-details/14">MATEMATIKA</a></h4>
+														<p>INI KELAS MATEMATIKA</p>
+														<ul>
+															
+															<li>
+																<span class="edu_course_info_icon">
+																	<a href="http://localhost/ta/enroll-now/14" class="edu_course_price ">Free</a>
+																</span>
+																
+															</li>
+															<li><span class="edu_course_info_icon">
+																<a href="http://localhost/ta/enroll-now/14" class="edu_btn ">Enroll Now</a>
+																</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+					</section>
+		<!----- Team Section Start ----->
+				<section class="edu_team_wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+						<div class="edu_heading_wrapper">
+							<h4 class="edu_subTitle">Para Tentor</h4>
+							<h4 class="edu_heading">Perkenalkan</h4>
+							<img src="./SSF E-Learning _ Beranda_files/border.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="row extraMargin">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12 p-0">
+						<div class="team_slider swiper-container swiper-container-initialized swiper-container-horizontal">
+							<div class="swiper-wrapper" style="transform: translate3d(-1800px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/ascended_shaq.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Shaq Bangkit</a>
+														<h6>Bachelor of English Murica</h6>
+													</div>
+												</div>
+											</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="3" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/kau.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Aqua</a>
+														<h6>Magister of Mulut Anda Kotor</h6>
+													</div>
+												</div>
+											</div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/itera1.png" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Ahmad HohoHihi</a>
+														<h6>SMA</h6>
+													</div>
+												</div>
+											</div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/pexels-pixabay-337871.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">aji</a>
+														<h6></h6>
+													</div>
+												</div>
+											</div>
+																		<div class="swiper-slide" data-swiper-slide-index="0" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/pexels-pixabay-33787.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Shaq O Neal</a>
+														<h6>Bachelor of English British</h6>
+													</div>
+												</div>
+											</div>
+																						<div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/posessed_shaq.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Shaq Kesurupan</a>
+														<h6>Bachelor of English Japanese</h6>
+													</div>
+												</div>
+											</div>
+																						<div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/ascended_shaq.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Shaq Bangkit</a>
+														<h6>Bachelor of English Murica</h6>
+													</div>
+												</div>
+											</div>
+																						<div class="swiper-slide swiper-slide-next" data-swiper-slide-index="3" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/kau.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Aqua</a>
+														<h6>Magister of Mulut Anda Kotor</h6>
+													</div>
+												</div>
+											</div>
+																						<div class="swiper-slide" data-swiper-slide-index="4" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/itera1.png" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Ahmad HohoHihi</a>
+														<h6>SMA</h6>
+													</div>
+												</div>
+											</div>
+																						<div class="swiper-slide" data-swiper-slide-index="5" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/pexels-pixabay-337871.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">aji</a>
+														<h6></h6>
+													</div>
+												</div>
+											</div>
+																		<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/pexels-pixabay-33787.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Shaq O Neal</a>
+														<h6>Bachelor of English British</h6>
+													</div>
+												</div>
+											</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="1" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/posessed_shaq.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Shaq Kesurupan</a>
+														<h6>Bachelor of English Japanese</h6>
+													</div>
+												</div>
+											</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/ascended_shaq.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Shaq Bangkit</a>
+														<h6>Bachelor of English Murica</h6>
+													</div>
+												</div>
+											</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="3" style="width: 270px; margin-right: 30px;">
+												<div class="edu_team_section">
+													<div class="edu_team_img">
+														<img src="./SSF E-Learning _ Beranda_files/kau.jpg" alt="">
+													</div>
+													<div class="edu_team_identity text-center">
+														<a href="javascript:void(0);">Aqua</a>
+														<h6>Magister of Mulut Anda Kotor</h6>
+													</div>
+												</div>
+											</div></div>
+						<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+						<div class="swiperTeamPagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span></div>
+					</div>
+				</div>
+			</div>
+		</section>
+				<!----- Testimonial Section ----->
+				<section class="edu_testimonial_wrapper">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+						<div class="edu_heading_wrapper">
+							<h4 class="edu_subTitle">REVIEW OLEH BIMBINGAN</h4>
+							<h4 class="edu_heading">Apa yang bimbingan kami katakan?</h4>
+							<img src="./SSF E-Learning _ Beranda_files/border.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+						<div class="edu_testimonials_section">
+							<div class="swiper-container testimonial_slider swiper-container-initialized swiper-container-horizontal">
+								<div class="swiper-wrapper" style="transform: translate3d(-5700px, 0px, 0px); transition-duration: 1000ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="4" style="width: 1110px; margin-right: 30px;">
+										<div class="edu_testimonial_section">
+											<div class="edu_client_img">
+												<span class="edu_testimonial_icon">
+													<i class="icofont-quote-left"></i>
+												</span><img src="./SSF E-Learning _ Beranda_files/childe.jpg" alt=""><div class="edu_client_quote">
+													<h4>Tatang Surtatang</h4>
+												</div>
+											</div>
+											<p>Menurut kitab Tatang Sutarman, nenek moyang gwe, Bimbel disini mantap </p>
+										</div>
+									</div>
+									<div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="0" style="width: 1110px; margin-right: 30px;">
+										<div class="edu_testimonial_section">
+											<div class="edu_client_img">
+												<span class="edu_testimonial_icon">
+													<i class="icofont-quote-left"></i>
+												</span><img src="./SSF E-Learning _ Beranda_files/zhongli.jpg" alt=""><div class="edu_client_quote">
+													<h4>Datuk Bokek</h4>
+												</div>
+											</div>
+											<p>Osmanthus Wine taste the same as I remember, but where are Those Who Share The Memory? </p>
+										</div>
+									</div><div class="swiper-slide" data-swiper-slide-index="1" style="width: 1110px; margin-right: 30px;">
+										<div class="edu_testimonial_section">
+											<div class="edu_client_img">
+												<span class="edu_testimonial_icon">
+													<i class="icofont-quote-left"></i>
+												</span><img src="./SSF E-Learning _ Beranda_files/kokomi.jpg" alt=""><div class="edu_client_quote">
+													<h4>Sangonomiya Kokomi</h4>
+												</div>
+											</div>
+											<p>AKMJ, Asik Keren Mantap Jiwa </p>
+										</div>
+									</div><div class="swiper-slide" data-swiper-slide-index="2" style="width: 1110px; margin-right: 30px;">
+										<div class="edu_testimonial_section">
+											<div class="edu_client_img">
+												<span class="edu_testimonial_icon">
+													<i class="icofont-quote-left"></i>
+												</span><img src="./SSF E-Learning _ Beranda_files/hutao.jpg" alt=""><div class="edu_client_quote">
+													<h4>Hu Tao</h4>
+												</div>
+											</div>
+											<p>Gokil </p>
+										</div>
+									</div><div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="3" style="width: 1110px; margin-right: 30px;">
+										<div class="edu_testimonial_section">
+											<div class="edu_client_img">
+												<span class="edu_testimonial_icon">
+													<i class="icofont-quote-left"></i>
+												</span><img src="./SSF E-Learning _ Beranda_files/ayaka.jpg" alt=""><div class="edu_client_quote">
+													<h4>Kamisato Ayaka</h4>
+												</div>
+											</div>
+											<p>Reflek Turu </p>
+										</div>
+									</div><div class="swiper-slide swiper-slide-active" data-swiper-slide-index="4" style="width: 1110px; margin-right: 30px;">
+										<div class="edu_testimonial_section">
+											<div class="edu_client_img">
+												<span class="edu_testimonial_icon">
+													<i class="icofont-quote-left"></i>
+												</span><img src="./SSF E-Learning _ Beranda_files/childe.jpg" alt=""><div class="edu_client_quote">
+													<h4>Tatang Surtatang</h4>
+												</div>
+											</div>
+											<p>Menurut kitab Tatang Sutarman, nenek moyang gwe, Bimbel disini mantap </p>
+										</div>
+									</div>								<div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="0" style="width: 1110px; margin-right: 30px;">
+										<div class="edu_testimonial_section">
+											<div class="edu_client_img">
+												<span class="edu_testimonial_icon">
+													<i class="icofont-quote-left"></i>
+												</span><img src="./SSF E-Learning _ Beranda_files/zhongli.jpg" alt=""><div class="edu_client_quote">
+													<h4>Datuk Bokek</h4>
+												</div>
+											</div>
+											<p>Osmanthus Wine taste the same as I remember, but where are Those Who Share The Memory? </p>
+										</div>
+									</div></div>
+							<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+							<!----- Slider Dots ----->
+							<div class="swiperTestimonialPagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+				<!----- Partner Start ----->
+				<section class="edu_partner_wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+						<div class="partner_slider swiper-container swiper-container-initialized swiper-container-horizontal">
+							<div class="swiper-wrapper" style="transform: translate3d(-2000px, 0px, 0px); transition-duration: 2000ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/011.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/021.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/031.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="3" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/041.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="4" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/051.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="5" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/063.png" alt=""></a>
+										</div>
+									</div>
+								<div class="swiper-slide" data-swiper-slide-index="0" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/011.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide" data-swiper-slide-index="1" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/021.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide" data-swiper-slide-index="2" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/031.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="3" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/041.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-active" data-swiper-slide-index="4" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/051.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-next" data-swiper-slide-index="5" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/063.png" alt=""></a>
+										</div>
+									</div>							<div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/011.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/021.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/031.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="3" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/041.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="4" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/051.png" alt=""></a>
+										</div>
+									</div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="5" style="width: 170px; margin-right: 30px;">
+										<div class="edu_partners_container mb_30 text-center">
+											<a href="javascript:void(0);"><img src="./SSF E-Learning _ Beranda_files/063.png" alt=""></a>
+										</div>
+									</div></div>
+						<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+					</div>
+				</div>
+			</div>
+		</section>
+			</section><!-- Logout start-->
+<div id="logoutPopup" class="edu_popup_container mfp-hide">
+    <div class="edu_popup_wrapper">
+        <div class="edu_popup_inner text-center">
+            <h4 class="edu_title edu_logt_title padderBottom20">Are you sure, You want to logout?</h4>
+            <button type="button" class="edu_btn edu_admin_btn edu_admin_btn_black edu_btn_black logoutBtnCncl mb-2">Cancel</button>
+            <button type="button" class="edu_btn edu_admin_btn logOutBtn ml-2 mb-2">Yes</button>
+        </div>
+    </div>
+</div>
+<!-- Logout end-->
+<footer class="edu_footer_wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-12 col-12 mb_30">
+					<div class="edu_widgets edu_footer_about">
+						<img class="footer_logo" src="./SSF E-Learning _ Beranda_files/nyamping_new1.png" alt="">
+						<p>Smart School Foundation adalah lembaga kursus bahasa Inggris yang beralamat di Jl. Alim Ulama No. 1 Semaka Kabupaten Tanggamus. Smart School Foundation sudah berdiri sejak tahun 20</p>
+						<a class="edu_readMoreBtn" href="http://localhost/ta/about-us">Baca Lebih</a>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-4 col-12">
+					<div class="edu_widgets mb_30">
+						<div class="edu_footer_title">
+							<h4 class="edu_footer_heading">Course Kami</h4>
+							<img src="./SSF E-Learning _ Beranda_files/half_border.png" alt="">
+						</div>
+						<ul>
+						<li><a href="http://localhost/ta/courses-details/14"><span>MATEMATIKA</span></a></li><li><a href="http://localhost/ta/courses-details/15"><span>MATEMATIKA 10</span></a></li><li><a href="http://localhost/ta/courses-details/"><span></span></a></li><li><a href="http://localhost/ta/courses-details/"><span></span></a></li><li><a href="http://localhost/ta/courses-details/"><span></span></a></li><li><a href="http://localhost/ta/courses-details/"><span></span></a></li>						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-4 col-12">
+					<div class="edu_widgets mb_30">
+						<div class="edu_footer_title">
+							<h4 class="edu_footer_heading">Fasilitas</h4>
+							<img src="./SSF E-Learning _ Beranda_files/half_border.png" alt="">
+						</div>
+						<ul>
+														<li><span>Ruang AC</span></li>
+															<li><span>Ruangan Luas</span></li>
+															<li><span>Tentor-tentor terbaik</span></li>
+													
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-lg-2 col-md-6 col-sm-4 col-12">
+					<div class="edu_widgets mb_30">
+						<div class="edu_footer_title">
+							<h4 class="edu_footer_heading">Our links</h4>
+							<img src="./SSF E-Learning _ Beranda_files/half_border.png" alt="">
+						</div>
+						<ul>
+							<li><a href="http://localhost/ta/"><span>Beranda</span></a></li>
+							<li><a href="http://localhost/ta/about-us"><span>Profil Kami</span></a></li>
+							<li><a href="http://localhost/ta/courses-offered"><span>Course Tersedia</span></a></li>
+							<li><a href="http://localhost/ta/gallery"><span>Gallery</span></a></li>
+							<li><a href="http://localhost/ta/facilities"><span>Fasilitas</span></a></li>
+						    <li><a href="http://localhost/ta/contact-us"><span>Kontak Kami</span></a></li>
+						    <li><a href="http://localhost/ta/privacy-policy"><span>Privacy Policy</span></a></li>
+						    <li><a href="http://localhost/ta/term-condition"><span>Terms &amp; Conditions</span></a></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-6 col-sm-12 col-12 mb_30">
+					<div class="edu_widgets edu_footer_address">
+						<div class="edu_footer_title">
+							<h4 class="edu_footer_heading">Kontak Kami</h4>
+							<img src="./SSF E-Learning _ Beranda_files/half_border.png" alt="">
+						</div>
+						<ul>
+							<li>
+								<div class="edu_footer_info">
+									<span>Alamat Kami:</span>
+										<a>Jl, Karang Rejo, Kec. Semaka, Kabupaten Tanggamus, Lampung 35386</a>								</div>
+							</li>
+							<li>
+								<div class="edu_footer_info">
+									<span>Nomor Kontak:</span>
+										<a href="tel:+081379523955">081379523955</a>								</div>
+							</li>
+							<li>
+								<div class="edu_footer_info">
+									<span>Alamat Email:</span>
+										<a href="mailto:smartschoolfoundation@gmail.com">smartschoolfoundation@gmail.com</a>								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="edu_copyright_wrapper">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+				<p>Copyright © 2022 Smart School Foundation. All Right Reserved.</p>
+			</div>
+		</div>
+		
+		
+	</footer>	
+	<!---------- GO To Top ------------>
+	<a href="javascript:void(0);" id="scroll"><span class="icofont-swoosh-up"></span></a>
+    <!----- Script Start ----->
+	<script src="./SSF E-Learning _ Beranda_files/jquery.min.js.download"></script>
+	<script src="./SSF E-Learning _ Beranda_files/popper.min.js.download"></script>
+	<script src="./SSF E-Learning _ Beranda_files/bootstrap.min.js.download"></script>
+    <script src="./SSF E-Learning _ Beranda_files/swiper.min.js.download"></script>
+	<script src="./SSF E-Learning _ Beranda_files/wow.min.js.download"></script>
+	<script src="./SSF E-Learning _ Beranda_files/jquery.magnific-popup.min.js.download"></script>
+	<script src="./SSF E-Learning _ Beranda_files/jquery.appear.js.download"></script>
+	<script src="./SSF E-Learning _ Beranda_files/jquery.countTo.js.download"></script>
+	<script src="./SSF E-Learning _ Beranda_files/toastr.min.js.download"></script>
+	<script src="./SSF E-Learning _ Beranda_files/tilt.js.download"></script>
+	<script src="./SSF E-Learning _ Beranda_files/checkout.js.download"></script><div class="razorpay-container" style="z-index: 2147483647; position: fixed; top: 0px; display: none; left: 0px; height: 100%; width: 100%; backface-visibility: hidden; overflow-y: visible;"><style>@keyframes rzp-rot{to{transform: rotate(360deg);}}@-webkit-keyframes rzp-rot{to{-webkit-transform: rotate(360deg);}} .razorpay-container > iframe {min-height: 100%!important;}</style><div class="razorpay-backdrop" style="min-height: 100%; transition: all 0.3s ease-out 0s; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%;"><span style="text-decoration: none; background: rgb(214, 68, 68); border: 1px dashed white; padding: 3px; opacity: 0; transform: rotate(45deg); transition: opacity 0.3s ease-in 0s; font-family: lato, ubuntu, helvetica, sans-serif; color: white; position: absolute; width: 200px; text-align: center; right: -50px; top: 50px;">Test Mode</span></div></div>
+	<script src="./SSF E-Learning _ Beranda_files/front-custom.js.download"></script>
+  
+</body></html>
